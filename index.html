@@ -2,114 +2,134 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hồ sơ dự thi - Xe quét rác</title>
 
 <style>
 body {
   font-family: Arial;
-  margin: 40px;
+  background: #0f172a;
+  color: #e2e8f0;
+  margin: 0;
+  padding: 20px;
   line-height: 1.6;
 }
-h1, h2, h3 {
-  color: #2c3e50;
+
+.container {
+  max-width: 900px;
+  margin: auto;
 }
-.section {
-  margin-bottom: 30px;
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
-img {
-  margin: 10px;
+
+h1 {
+  text-align: center;
+  color: #38bdf8;
+}
+
+h2 {
+  color: #22c55e;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-family: inherit;
 }
 </style>
-
 </head>
 
 <body>
 
-<h1>CUỘC THI SÁNG TẠO THANH THIẾU NIÊN NHI ĐỒNG TỈNH ĐỒNG THÁP LẦN THỨ 19 NĂM 2026</h1>
+<div class="container">
 
-<h2>HỒ SƠ DỰ THI</h2>
-
-<div class="section">
-<p><b>Tên Tác giả:</b> Lê Tôn Minh Thuận</p>
-<p><b>Năm sinh:</b> 04/7/2012</p>
-<p><b>Địa chỉ:</b> Lớp Tám1 Trường THCS Hưng Thạnh</p>
-<p><b>Tên sản phẩm:</b> Xe quét rác</p>
-<p><b>Lĩnh vực dự thi:</b> Môi trường</p>
-<p><b>Điện thoại:</b> 0946 95 95 47</p>
+<div class="card">
+<h1>🤖 HỒ SƠ DỰ THI - XE QUÉT RÁC</h1>
 </div>
 
-<h2>PHIẾU ĐĂNG KÝ DỰ THI</h2>
+<div class="card">
+<pre>
+CUỘC THI SÁNG TẠO THANH THIẾU NIÊN NHI ĐỒNG TỈNH ĐỒNG THÁP LẦN THỨ 19 NĂM 2026
 
-<div class="section">
-<p>Họ tên: Lê Tôn Minh Thuận</p>
-<p>Ngày sinh: 04/7/2012</p>
-<p>Lớp: 81 - Trường THCS Hưng Thạnh</p>
-<p>Địa chỉ: Ấp Hưng Điền, xã Hưng Thạnh, tỉnh Đồng Tháp</p>
-<p>Họ tên bố: Lê Minh Thanh - Nghề nghiệp: Dược sĩ</p>
-<p>Họ tên mẹ: Hồ Thị Chum - Nghề nghiệp: Giáo viên</p>
-<p>Tên sản phẩm: Xe quét rác</p>
+HỒ SƠ DỰ THI 
+
+Tên Tác giả: Lê Tôn Minh Thuận 
+Năm sinh: 04/7/2012
+Địa chỉ: Lớp Tám1 Trường THCS Hưng Thạnh
+Tên sản phẩm: Xe quét rác
+Lĩnh vực dự thi: Môi trường
+Điện thoại liên lạc: 0946 95 95 47
+
+PHIẾU ĐĂNG KÝ DỰ THI
+
+Họ tên: Lê Tôn Minh Thuận
+Ngày sinh: 04/7/2012
+Lớp: 81 Trường THCS Hưng Thạnh
+Địa chỉ: Ấp Hưng Điền, xã Hưng Thạnh tỉnh Đồng Tháp
+
+BẢN THUYẾT MINH SẢN PHẨM
+
+1. Tên sản phẩm: Xe quét rác
+
+2. Mục đích:
+Giúp việc tự quét rác trên sân nhà, sân trường được thuận tiện tiết kiệm công sức và thời gian.
+
+3. Giới thiệu:
+Ý tưởng: Xuất phát từ việc xả rác trong trường học.
+
+Nguyên vật liệu:
+ESP32, động cơ, servo, mạch L298N, pin 12V, cảm biến siêu âm, quạt tản nhiệt
+
+Nguyên lý hoạt động:
+Xe chạy → gặp vật → lùi → quẹo → chạy tiếp
+Chạy 3 phút nghỉ 30 giây
+Sau 1 giờ quay về vị trí ban đầu
+
+4. Các bước thực hiện:
+- Bước 1: Thiết kế (1 tuần)
+- Bước 2: Xây dựng ý tưởng lập trình (2 tuần)
+- Bước 3: Lập trình chỉnh sửa hệ thống code cho esp32 (3 tuần)
+- Bước 4: Lắp ráp mạch điện (1 tuần)
+- Bước 5: Kiểm tra sửa lỗi (1 ngày)
+
+5. Đánh giá mô hình:
+
+a. Tính mới và sáng tạo:
+- Mô hình nhỏ gọn
+- Dùng pin sạc không dây
+- Giá khoảng hơn 1 triệu
+
+- Điểm sáng tạo:
++ Sử dụng code công nghệ AI
++ Thiết kế tiện lợi
+
+b. Khả năng áp dụng:
+Giúp quét rác sân nhà, sân trường
+
+c. Hiệu quả:
+- Đã thử nghiệm thực tế
+- Giúp giảm công việc thủ công
+
+PHỤ LỤC:
+(Hình ảnh sẽ bổ sung)
+</pre>
 </div>
 
-<h2>BẢN THUYẾT MINH SẢN PHẨM</h2>
+<div class="card">
+<h2>📸 Phụ lục hình ảnh</h2>
 
-<div class="section">
-<h3>1. Tên sản phẩm</h3>
-<p>Xe quét rác</p>
-
-<h3>2. Mục đích</h3>
-<p>Giúp việc tự quét rác trên sân nhà, sân trường được thuận tiện tiết kiệm công sức và thời gian.</p>
-
-<h3>3. Giới thiệu</h3>
-
-<p><b>Ý tưởng:</b> Xuất phát từ việc xả rác trong trường học.</p>
-
-<p><b>Nguyên vật liệu:</b></p>
-<ul>
-<li>ESP32</li>
-<li>Động cơ</li>
-<li>Servo</li>
-<li>Mạch L298N</li>
-<li>Pin 12V</li>
-<li>Cảm biến siêu âm</li>
-<li>Quạt tản nhiệt</li>
-</ul>
-
-<p><b>Nguyên lý hoạt động:</b></p>
-<p>
-Xe chạy tới → gặp vật cản → lùi → quay trái/phải → tiếp tục chạy.  
-Chạy 3 phút nghỉ 30 giây.  
-Sau 1 giờ sẽ quay về vị trí ban đầu.
-</p>
-
-<h3>4. Các bước thực hiện</h3>
-
-<ul>
-<li>Bước 1: Thiết kế (1 tuần)</li>
-<li>Bước 2: Lập trình (2 tuần)</li>
-<li>Bước 3: Chỉnh code (3 tuần)</li>
-<li>Bước 4: Lắp ráp (1 tuần)</li>
-<li>Bước 5: Test (1 ngày)</li>
-</ul>
-
-<h3>5. Đánh giá</h3>
-
-<p><b>Tính mới:</b> Nhỏ gọn, dùng pin sạc, tiện lợi</p>
-<p><b>Sáng tạo:</b> Có AI, tự động</p>
-<p><b>Ứng dụng:</b> Quét sân nhà, sân trường</p>
-<p><b>Hiệu quả:</b> Đã test thực tế</p>
+<img src="https://via.placeholder.com/300">
+<img src="https://via.placeholder.com/300">
+<img src="https://via.placeholder.com/300">
 
 </div>
 
-<h2>📸 PHỤ LỤC</h2>
-
-<p>Hình 1: Mô hình xe quét rác</p>
-<img src="https://via.placeholder.com/300">
-
-<p>Hình 2: Lắp ráp mạch</p>
-<img src="https://via.placeholder.com/300">
-
-<p>Hình 3: Hoạt động</p>
-<img src="https://via.placeholder.com/300">
+</div>
 
 </body>
 </html>
